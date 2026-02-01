@@ -1,0 +1,21 @@
+#freedium-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+#freedium-toggle-btn:hover {
+  transform: scale(1.1);
+  background-color: #333;
+}
